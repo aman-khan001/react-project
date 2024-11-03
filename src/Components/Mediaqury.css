@@ -1,0 +1,20 @@
+@media(min-width:320px) and (max-width:700px) {
+
+    .weather_data{
+        width: 100%;
+        margin: 30px 40px;
+    }
+    .btns {
+        right: 5px;
+    }
+    .searchBar{
+        right:20px;
+        padding-bottom: 50px;
+    }
+    .weather_icon img{
+        height: 100px;
+    }
+    .locals{
+        padding-top: 95px;
+    }
+}
