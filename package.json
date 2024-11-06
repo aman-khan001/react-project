@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aman-khan001.github.io/Rajveer-project",
+  "homepage": "https://aman-khan001.github.io/react-project",
   "name": "weatherdetecter",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "vite build",
-    "deploy": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
